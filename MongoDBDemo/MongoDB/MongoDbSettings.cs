@@ -1,7 +1,7 @@
-namespace MongoDBDemo.Config;
+namespace MongoDBDemo.MongoDB;
 
-public class MongoDbSettings
+public class MongoDbSettings(string connectionString, string databaseName)
 {
-    public string ConnectionString { get; set; }
-    public string DatabaseName { get; set; }
+    public string ConnectionString { get; init; } = connectionString;
+    public string DatabaseName { get; init; } = databaseName;
 }

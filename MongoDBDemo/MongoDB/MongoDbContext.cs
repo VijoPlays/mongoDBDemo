@@ -1,6 +1,5 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using MongoDBDemo.Config;
 using MongoDBDemo.Models;
 
 namespace MongoDBDemo.MongoDB;

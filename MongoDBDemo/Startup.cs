@@ -1,6 +1,5 @@
 using Microsoft.OpenApi.Models;
 using MongoDBDemo.Components;
-using MongoDBDemo.Config;
 using MongoDBDemo.MongoDB;
 using MongoDBDemo.Repository;
 using MongoDBDemo.Services;
